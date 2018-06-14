@@ -1,0 +1,13 @@
+html,
+body {
+    height: 100%;
+    background: rgba(255, 57, 164, 0);
+}
+/*html {
+    display: table;
+    margin: auto;
+}
+body {
+    display: table-cell;
+    vertical-align: middle;
+}*/

@@ -1,0 +1,62 @@
+html, body{
+    width:100%;
+    height:100%;
+}
+/*Largura botão*/
+.larguraTotal{
+    width: 95%;
+}
+/*Padding coluna botão*/
+.padding5{
+    padding-right: 0px !important;
+    padding-left: 0px !important;
+}
+/* container principal */
+#containerBody{
+    display: none;
+}
+/*loading*/
+.loadingOuter{
+    display: block;
+    position: fixed;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    z-index: 1000000;
+    background: rgba(255, 255, 255,0.9);
+}
+.loadingInner{
+    height:40%;
+    width: 40%;
+    position: relative;
+    top: 20%;
+    background: rgba(255, 255, 255,0);
+    margin:0 auto;
+    text-align: center;
+}
+.loadingText{
+    color: #6b6b6b;
+}
+.loadingImage{
+    height: 100%;
+}
+/*datatable*/
+.tableResultsCorreios
+{
+    display: none;
+    padding: 2%;
+}
+.tableResultsCorreios tr:hover
+{
+    background-color: rgb(51, 122, 183) !important;
+    cursor: pointer !important;
+    color: #ffffff !important;
+}
+/*modal*/
+@media screen and (min-width: 768px)
+{
+    .modalLarge {
+        width: 80%; /* either % (e.g. 60%) or px (400px) */
+    }
+}

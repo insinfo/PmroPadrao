@@ -1,0 +1,22 @@
+.customInputField {
+    position: relative;
+    margin-top: 2rem;
+}
+
+.form-control {
+
+}
+
+select[name="tableUsuarios_length"]{
+    visibility: visible !important;
+    position: relative;
+    display: block !important;
+    user-select:text;
+    width: 50px !important;
+    pointer-events:fill !important;
+    height: 30px !important;
+    top: 0;
+    left: 0;
+    opacity: 100 !important;
+}
+

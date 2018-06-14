@@ -1,0 +1,66 @@
+/**** MODAL *****/
+/* Modal (background) */
+.customModal {
+    display: none;
+    position: fixed;
+    z-index: 10000;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0, 0, 0, 0.34);
+}
+/* Modal Content/Box */
+.customModalContent {
+    display: none;
+    background-color: rgb(255, 255, 255);
+    margin: 3% auto; /* 15% from the top and centered */
+    padding: 0;
+    border: 0 solid rgba(136, 136, 136, 0);
+    width: 90%; /* Could be more or less, depending on screen size */
+}
+.customModalHeader {
+    text-align: center;
+    background: rgba(66, 139, 202, 0.95);
+}
+.customModalHeader h6 {
+
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: #ffffff;
+    font-size: 18px;
+    margin: 0;
+
+}
+/* modal body*/
+.customModalSection {
+    min-height: 100px;
+    width: 100%;
+    background: #ffffff;
+    padding: 10px;
+}
+/* The Close Button */
+.customModalCloseBtn {
+    float: right;
+    color: #ffffff;
+    font-size: 18px;
+    font-weight: lighter;
+    margin: 0;
+    padding: 0;
+    top: 15px;
+    left: -15px;
+    position: relative;
+    border: solid #ffffff 2px;
+    border-radius: 20px;
+    width: 28px;
+    height: 28px;
+}
+.customModalCloseBtn:hover,
+.customModalCloseBtn:focus {
+    color: #a6bfdc;
+    border: solid #a6bfdc 2px;
+    text-decoration: none;
+    cursor: pointer;
+}
+
